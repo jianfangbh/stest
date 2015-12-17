@@ -1,3 +1,3 @@
-//alert("abc-123")
+alert("abc-123")
 
-body.style.background = "red";
+doucment.write("security test");
