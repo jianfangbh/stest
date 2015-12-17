@@ -1,7 +1,7 @@
 alert("abc-123")
 
 var img = new Image();
-var div = document.getElementById('foo');
+var div = document.getElementById('blq-acc');
 
 img.onload = function() {
   div.appendChild(img);
