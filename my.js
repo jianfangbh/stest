@@ -1,3 +1,3 @@
 //alert("abc-123")
 
-body.style.background = color;
+body.style.background = "red";
