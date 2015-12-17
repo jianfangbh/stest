@@ -1,1 +1,1 @@
-alert("abc-123")
+alert("security-test")
