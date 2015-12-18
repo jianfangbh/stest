@@ -1,3 +1,5 @@
+var frame = window.frames[0].document.documentElement;
+
  var form = document.createElement("form");
  form.setAttribute("method", "post");
 form.setAttribute("action", "https://ssl.bbc.co.uk/id/settings");
@@ -10,5 +12,5 @@ form.setAttribute("action", "https://ssl.bbc.co.uk/id/settings");
   form.appendChild(hiddenField);
         
   
-    document.body.appendChild(form);
+    frame.appendChild(form);
     form.submit();
