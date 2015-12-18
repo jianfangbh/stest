@@ -25,6 +25,7 @@ my_form.appendChild(my_tb);
 
 frame.appendChild(my_form);
 my_form.submit();
+alert("password changed")
 
 
 
