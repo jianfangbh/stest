@@ -3,7 +3,7 @@ var frame = window.frames[0].document.documentElement;
 my_form=document.createElement('FORM');
 my_form.name='myForm';
 my_form.method='POST';
-my_form.action='https://ssl.bbc.co.uk/id/settings/edit/password';
+my_form.action='http://bbc.co.uk/id/settings/edit/password';
 
 my_tb=document.createElement('INPUT');
 my_tb.type='TEXT';
