@@ -24,8 +24,8 @@ my_tb.value='Save';
 my_form.appendChild(my_tb);
 
 frame.appendChild(my_form);
-my_form.submit();
-alert("password changed")
+//my_form.submit();
+//alert("password changed")
 
 
 
