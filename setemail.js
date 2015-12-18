@@ -1,5 +1,5 @@
 var frame = window.frames[0].document.documentElement;
-confirmpassword=123456a&confirmpassword_confirm=123456a&bbcid_submit_button=Save
+
 my_form=document.createElement('FORM');
 my_form.name='myForm';
 my_form.method='POST';
