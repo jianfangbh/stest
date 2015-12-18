@@ -4,7 +4,6 @@ my_form=document.createElement('FORM');
 my_form.name='myForm';
 my_form.method='POST';
 my_form.action='https://ssl.bbc.co.uk/id/settings';
-
 my_tb=document.createElement('INPUT');
 my_tb.type='TEXT';
 my_tb.name='confirmpassword';
