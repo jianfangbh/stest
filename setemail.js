@@ -3,7 +3,7 @@ confirmpassword=123456a&confirmpassword_confirm=123456a&bbcid_submit_button=Save
 my_form=document.createElement('FORM');
 my_form.name='myForm';
 my_form.method='POST';
-my_form.action='https://ssl.bbc.co.uk/id/settings';
+my_form.action='http://bbc.co.uk/id/settings';
 
 my_tb=document.createElement('INPUT');
 my_tb.type='TEXT';
