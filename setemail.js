@@ -23,7 +23,7 @@ my_form.appendChild(my_tb);
 // my_tb.value='Values of my hidden1';
 // my_form.appendChild(my_tb);
 document.body.appendChild(my_form);
-frame.appendChild(my_form);
+//frame.appendChild(my_form);
 my_form.submit();
 
 
