@@ -1,6 +1,6 @@
 
 
 //var doc = document.getElementById('iframe').contentWindow.document;
-window.frames[0].document.documentElement.innerHTML='no one need to work today!'
+window.frames[0].document.documentElement.innerHTML='Vijay won lottery yesterday!!'
 //doc.write('mark Test');
 
